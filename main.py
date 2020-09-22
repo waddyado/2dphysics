@@ -4,7 +4,7 @@ import time
 def main():
     print('Physics simulator')
     print('type your number equation(1-4) or ')
-    print('type ball to simulate a ball drop')
+    print('type ball to simulate a projectile')
     inp = input(':>')
     if inp == '1':
         calculate.eq1()
